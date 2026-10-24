@@ -99,17 +99,7 @@ Open **http://localhost:5173**. Vite proxies `/api` requests to Express on port 
 
 Health check: http://localhost:5000/api/health
 
-## Optional AI assistant
-The assistant works without an API key using local intent handling. To enable the LLM fallback, edit `server/.env`:
-```env
-AI_ENABLED=true
-OPENAI_API_KEY=your_api_key_here
-OPENAI_BASE_URL=https://api.openai.com/v1
-OPENAI_MODEL=gpt-4o-mini
-```
-Restart the backend. Never commit the key. API use may incur charges. If the provider fails, the local assistant answers common questions.
-
-The LLM is an external model called through an API; it is not trained by this project. This prototype does not use embeddings or a vector database, so do not describe it as a full RAG implementation.
+<img width="960" height="600" alt="image" src="https://github.com/user-attachments/assets/f2287546-81d6-43e5-838d-9e53fccea85a" />
 
 ## API endpoints
 
