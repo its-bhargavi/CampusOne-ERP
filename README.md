@@ -148,11 +148,6 @@ The LLM is an external model called through an API; it is not trained by this pr
 - Add CSRF/rate-limit controls, audit logs, stricter row-level access tests, robust monitoring, and deployment secrets management before production use.
 - AI can be inaccurate; do not rely on it for consequential academic decisions.
 
-## Resume bullet (after local testing)
-**CampusOne ERP — Role-Based Student & Campus Management | React, Node.js, Express, MongoDB, JWT**
-- Built separate student, faculty, and admin workspaces for attendance, lecture schedules, student perks, campus events, announcements, and feedback.
-- Developed REST APIs and MongoDB models with JWT authentication, bcrypt password hashing, and role-based access checks.
-- Integrated a shared AI assistant with role-authorized ERP context, local intent-based fallback, and optional external LLM responses.
 
 ## Author
 Bhargavi Verma
