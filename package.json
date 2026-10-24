@@ -1,0 +1,14 @@
+{
+  "name": "sih-erp-mern",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Student and campus ERP prototype built with React, Express, MongoDB and optional AI chatbot",
+  "scripts": {
+    "install:all": "npm install && npm --prefix server install && npm --prefix client install",
+    "dev": "concurrently \"npm run dev --prefix server\" \"npm run dev --prefix client\"",
+    "seed": "npm run seed --prefix server"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
